@@ -63,6 +63,7 @@ if __name__ == "__main__":
     DataSet.add_numerical_dataset('final_accelerometer.csv', 'timestamp', ['x','y','z'], 'avg', 'acc_')
     DataSet.add_numerical_dataset('final_orientation.csv', 'timestamp', ['x', 'y', 'z'], 'avg', 'ori_')
     DataSet.add_numerical_dataset('final_magnetometer.csv', 'timestamp', ['x', 'y', 'z'], 'avg', 'mag_')
+    DataSet.add_event_dataset('labels.csv', 'label_start', 'label_end', 'label', 'binary')
     #DataSet.add_numerical_dataset('gyro_act.csv', 'timestamps', ['x', 'y', 'z'], 'avg', 'gyr_')
     #DataSet.add_numerical_dataset('inclination_act.csv', 'timestamps', ['ang', 'rot'], 'avg', 'inc_')
     #DataSet.add_numerical_dataset('Light.csv', 'timestamps', ['lx'], 'avg', 'light_')
@@ -81,9 +82,9 @@ if __name__ == "__main__":
     DataViz.plot_dataset_boxplot(dataset, ['acc_x', 'acc_y', 'acc_z'])
 
     # Plot all data
-    DataViz.plot_dataset(dataset, ['acc_', 'ori_', 'mag_'],
-                         ['like', 'like', 'like'],
-                         ['line', 'line', 'line'])
+    DataViz.plot_dataset(dataset, ['acc_', 'ori_', 'mag_', 'label'],
+                         ['like', 'like', 'like','like'],
+                         ['line', 'line', 'line', 'points'])
 
     # And print a summary of the dataset
     util.print_statistics(dataset)
