@@ -82,8 +82,8 @@ if __name__ == "__main__":
 
     # Plot all data
     DataViz.plot_dataset(dataset, ['acc_', 'ori_', 'mag_'],
-                         ['like', 'like', 'like', 'like'],
-                         ['line', 'line', 'line', 'line'])
+                         ['like', 'like', 'like'],
+                         ['line', 'line', 'line'])
 
     # And print a summary of the dataset
     util.print_statistics(dataset)
