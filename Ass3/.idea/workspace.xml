@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921da2a6-da60-4a70-a1f4-d373c0f35f31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PythonCode/initial_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCode/initial_plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ass3_interfiles/Ass3_chapter3_result_final.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ass3_interfiles/Ass3_result_outliers.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCode/missingValueImputation.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCode/missingValueImputation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCode/outliers_song.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCode/outliers_song.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +19,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonCode/outliers_song.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45" />
+            <state relative-caret-position="1050">
+              <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonCode/missingValueImputation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="34" column="83" lean-forward="true" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ass3_interfiles/Ass3_chapter3_result_final.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ass3_interfiles/Ass3_result_outliers.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="110">
+              <caret line="2794" column="79" selection-start-line="2794" selection-start-column="79" selection-end-line="2794" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonCode/initial_plots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="465">
               <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="e#641#689#0" expanded="true" />
@@ -34,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonCode/convert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-287">
+            <state relative-caret-position="-183">
               <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -78,11 +113,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ass3_processed_outputfiles/accelerometer.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -112,6 +142,8 @@
         <option value="$PROJECT_DIR$/Ass3_processed_outputfiles/gyroscope_new.csv" />
         <option value="$PROJECT_DIR$/Ass3_processed_outputfiles/magnetometer_new.csv" />
         <option value="$PROJECT_DIR$/PythonCode/initial_plots.py" />
+        <option value="$PROJECT_DIR$/PythonCode/outliers_song.py" />
+        <option value="$PROJECT_DIR$/PythonCode/missingValueImputation.py" />
       </list>
     </option>
   </component>
@@ -123,10 +155,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="203" />
-    <option name="y" value="74" />
+    <option name="x" value="185" />
+    <option name="y" value="35" />
     <option name="width" value="1536" />
-    <option name="height" value="807" />
+    <option name="height" value="931" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,7 +176,7 @@
             <path>
               <item name="Ass3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ass3" type="462c0819:PsiDirectoryNode" />
-              <item name="Plots" type="462c0819:PsiDirectoryNode" />
+              <item name="Ass3_interfiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ass3" type="b2602c69:ProjectViewProjectNode" />
@@ -160,7 +192,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Plots" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Plots/Chapt3" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -180,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.initial_plots">
+  <component name="RunManager" selected="Python.missingValueImputation">
     <configuration name="ass3_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ass3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,28 +227,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCode/ass3_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="crowdsignals_ch2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MachineLearning/PythonCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MachineLearning/PythonCode/crowdsignals_ch2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,28 +257,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataconvert_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Ass3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCode/dataconvert_new.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="initial_plots" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ass3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,13 +279,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="missingValueImputation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ass3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCode/missingValueImputation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="outliers_song" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ass3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonCode/outliers_song.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.missingValueImputation" />
+        <item itemvalue="Python.outliers_song" />
         <item itemvalue="Python.initial_plots" />
         <item itemvalue="Python.dataconvert" />
         <item itemvalue="Python.ass3_1" />
-        <item itemvalue="Python.dataconvert_new" />
-        <item itemvalue="Python.crowdsignals_ch2" />
       </list>
     </recent_temporary>
   </component>
@@ -316,19 +348,19 @@
       <workItem from="1561025003523" duration="13414000" />
       <workItem from="1561062212681" duration="321000" />
       <workItem from="1561062594156" duration="1909000" />
-      <workItem from="1561195587788" duration="12926000" />
+      <workItem from="1561195587788" duration="19646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33802000" />
+    <option name="totallyTimeSpent" value="40522000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="203" y="74" width="1536" height="807" extended-state="0" />
+    <frame x="209" y="27" width="1536" height="931" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19261745" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19261745" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32851985" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -336,7 +368,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32969433" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.42537314" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.5516373" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3114525" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -347,7 +379,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.34630874" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.24295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,8 +419,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ass3$dataconvert_new.coverage" NAME="dataconvert_new Coverage Results" MODIFIED="1561035754076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$ass3_1.coverage" NAME="ass3_1 Coverage Results" MODIFIED="1561214455592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
+    <SUITE FILE_PATH="coverage/Ass3$missingValueImputation.coverage" NAME="missingValueImputation Coverage Results" MODIFIED="1561234441574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$dataconvert.coverage" NAME="dataconvert Coverage Results" MODIFIED="1561214475151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$initial_plots.coverage" NAME="initial_plots Coverage Results" MODIFIED="1561221305028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
+    <SUITE FILE_PATH="coverage/Ass3$outliers_song.coverage" NAME="outliers_song Coverage Results" MODIFIED="1561230174511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -521,21 +555,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCode/missingValueImputation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-719">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonCode/outliers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCode/outliers_song.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ass3_interfiles/initial_result.csv">
@@ -544,35 +566,8 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCode/convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCode/dataconvert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ass3_processed_outputfiles/accelerometer.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ass3_processed_outputfiles/accelerometer_new.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ass3_processed_outputfiles/gyroscope_new.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -597,13 +592,70 @@
     <entry file="file://$PROJECT_DIR$/Ass3_processed_outputfiles/gyroscope.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ass3_processed_outputfiles/accelerometer_new.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/outliers_song.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ass3_interfiles/Ass3_result_outliers.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="110">
+          <caret line="2794" column="79" selection-start-line="2794" selection-start-column="79" selection-end-line="2794" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PythonCode/initial_plots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="465">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="e#641#689#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/dataconvert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ass3_interfiles/Ass3_chapter3_result_final.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/missingValueImputation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="34" column="83" lean-forward="true" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
         </state>
       </provider>
     </entry>

@@ -19,7 +19,7 @@ from matplotlib import pyplot
 DataViz = VisualizeDataset()
 
 # Read the result from the previous chapter, and make sture the index is of the type datetime.
-dataset_path = '../Ass3_processed_outputfiles/'
+dataset_path = '../Ass3_interfiles/'
 try:
     dataset = pd.read_csv(dataset_path + 'initial_result.csv', index_col=0)
 except IOError as e:
@@ -54,7 +54,7 @@ milliseconds_per_instance = (dataset.index[1] - dataset.index[0]).microseconds/1
 # Step 1: Let us see whether we have some outliers we would prefer to remove.
 
 # Determine the columns we want to experiment on.
-outlier_columns = ['mag_phone_x','mag_phone_x','mag_phone_z']
+outlier_columns = ['mag_phone_x','mag_phone_y','mag_phone_z']
 
 #for chauvenet
 # pyplot.hist(dataset['acc_x'].dropna(), alpha=0.4, color='blue', label='acc_x' )
