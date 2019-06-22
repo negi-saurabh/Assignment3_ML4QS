@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921da2a6-da60-4a70-a1f4-d373c0f35f31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ass3_Inputfiles/data_622_fixed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ass3_interfiles/initial_result.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ass3_processed_outputfiles/accelerometer_new.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ass3_processed_outputfiles/gyroscope_new.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ass3_processed_outputfiles/labels.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ass3_processed_outputfiles/magnetometer_new.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plots/boxplot_250_acc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter4/FrequencyAbstraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter4/TemporalAbstraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter4/TextAbstraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/ass3_ch4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/outliers_song.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plots/Chapter2_250.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plots/Chapter2_box_250.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonCode/initial_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCode/initial_plots.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PythonCode/initial_plots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="e#641#689#0" expanded="true" />
               </folding>
@@ -332,12 +316,12 @@
       <workItem from="1561025003523" duration="13414000" />
       <workItem from="1561062212681" duration="321000" />
       <workItem from="1561062594156" duration="1909000" />
-      <workItem from="1561195587788" duration="12919000" />
+      <workItem from="1561195587788" duration="12926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33795000" />
+    <option name="totallyTimeSpent" value="33802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="203" y="74" width="1536" height="807" extended-state="0" />
@@ -404,7 +388,7 @@
     <SUITE FILE_PATH="coverage/Ass3$dataconvert_new.coverage" NAME="dataconvert_new Coverage Results" MODIFIED="1561035754076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$ass3_1.coverage" NAME="ass3_1 Coverage Results" MODIFIED="1561214455592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$dataconvert.coverage" NAME="dataconvert Coverage Results" MODIFIED="1561214475151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
-    <SUITE FILE_PATH="coverage/Ass3$initial_plots.coverage" NAME="initial_plots Coverage Results" MODIFIED="1561216917875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
+    <SUITE FILE_PATH="coverage/Ass3$initial_plots.coverage" NAME="initial_plots Coverage Results" MODIFIED="1561221305028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -615,8 +599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonCode/initial_plots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="e#641#689#0" expanded="true" />
           </folding>

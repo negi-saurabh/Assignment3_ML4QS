@@ -29,7 +29,7 @@ if not os.path.exists(input_Data_path):
 # coarse grained, namely one measurement per minute, and secondly use four measurements
 # per second
 
-granularities = [25000]
+granularities = [250]
 datasets = []
 
 for milliseconds_per_instance in granularities:
