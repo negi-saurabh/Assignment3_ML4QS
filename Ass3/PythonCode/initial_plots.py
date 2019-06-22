@@ -8,7 +8,7 @@
 ##############################################################
 
 input_Data_path = '../Ass3_processed_outputfiles/'
-output_Data_path = '../Ass3_processed_outputfiles/'
+output_Data_path = '../Ass3_interfiles/'
 
 # Import the relevant classes.
 
@@ -29,7 +29,7 @@ if not os.path.exists(input_Data_path):
 # coarse grained, namely one measurement per minute, and secondly use four measurements
 # per second
 
-granularities = [300]
+granularities = [25000]
 datasets = []
 
 for milliseconds_per_instance in granularities:
@@ -41,12 +41,12 @@ for milliseconds_per_instance in granularities:
 
     # We add the accelerometer data (continuous numerical measurements) of the phone and the smartwatch
     # and aggregate the values per timestep by averaging the values/
-    DataSet.add_numerical_dataset('accelerometer.csv', 'loggingTime(txt)', ['x','y','z'], 'avg', 'acc_phone_')
+    DataSet.add_numerical_dataset('accelerometer_new.csv', 'loggingTime(txt)', ['x','y','z'], 'avg', 'acc_phone_')
     # DataSet.add_numerical_dataset('accelerometer_smartwatch.csv', 'timestamps', ['x','y','z'], 'avg', 'acc_watch_')
 
     # We add the gyroscope data (continuous numerical measurements) of the phone and the smartwatch
     # and aggregate the values per timestep by averaging the values/
-    DataSet.add_numerical_dataset('gyroscope.csv', 'loggingTime(txt)', ['x','y','z'], 'avg', 'gyr_phone_')
+    DataSet.add_numerical_dataset('gyroscope_new.csv', 'loggingTime(txt)', ['x','y','z'], 'avg', 'gyr_phone_')
     # DataSet.add_numerical_dataset('gyroscope_smartwatch.csv', 'timestamps', ['x','y','z'], 'avg', 'gyr_watch_')
 
     # We add the heart rate (continuous numerical measurements) and aggregate by averaging again
@@ -55,14 +55,14 @@ for milliseconds_per_instance in granularities:
     # We add the labels provided by the users. These are categorical events that might overlap. We add them
     # as binary attributes (i.e. add a one to the attribute representing the specific value for the label if it
     # occurs within an interval).
-    # DataSet.add_event_dataset('labels.csv', 'label_start', 'label_end', 'label', 'binary')
+    DataSet.add_event_dataset('labels.csv', 'label_start', 'label_end', 'label', 'binary')
 
     # We add the amount of light sensed by the phone (continuous numerical measurements) and aggregate by averaging again
     # DataSet.add_numerical_dataset('light_phone.csv', 'timestamps', ['lux'], 'avg', 'light_phone_')
 
     # We add the magnetometer data (continuous numerical measurements) of the phone and the smartwatch
     # and aggregate the values per timestep by averaging the values
-    DataSet.add_numerical_dataset('magnetometer.csv', 'loggingTime(txt)', ['x','y','z'], 'avg', 'mag_phone_')
+    DataSet.add_numerical_dataset('magnetometer_new.csv', 'loggingTime(txt)', ['x','y','z'], 'avg', 'mag_phone_')
     # DataSet.add_numerical_dataset('magnetometer_smartwatch.csv', 'timestamps', ['x','y','z'], 'avg', 'mag_watch_')
 
     # We add the pressure sensed by the phone (continuous numerical measurements) and aggregate by averaging again
@@ -80,7 +80,7 @@ for milliseconds_per_instance in granularities:
     DataViz.plot_dataset_boxplot(dataset, ['acc_phone_x','acc_phone_y','acc_phone_z'])
 
     # Plot all data
-    DataViz.plot_dataset(dataset, ['acc_', 'gyr_', 'mag_'], ['like', 'like', 'like'], ['line', 'line', 'line'])
+    DataViz.plot_dataset(dataset, ['acc_phone_', 'gyr_phone_', 'mag_phone_', 'label'], ['like', 'like', 'like', 'like'], ['line', 'line', 'line', 'points'])
 
     # And print a summary of the dataset
 
