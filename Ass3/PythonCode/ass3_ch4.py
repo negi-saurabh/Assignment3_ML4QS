@@ -19,7 +19,7 @@ import pandas as pd
 DataViz = VisualizeDataset()
 
 # Read the result from the previous chapter, and make sure the index is of the type datetime.
-dataset_path = './Ass3inter_files/'
+dataset_path = '../Ass3_interfiles/'
 try:
     dataset = pd.read_csv(dataset_path + 'Ass3_chapter3_result_final.csv', index_col=0)
 except IOError as e:
@@ -42,10 +42,10 @@ window_sizes = [int(float(5000)/milliseconds_per_instance), int(float(0.5*60000)
 NumAbs = NumericalAbstraction()
 dataset_copy = copy.deepcopy(dataset)
 for ws in window_sizes:
-    dataset_copy = NumAbs.abstract_numerical(dataset_copy, ['acc_x'], ws, 'mean')
-    dataset_copy = NumAbs.abstract_numerical(dataset_copy, ['acc_x'], ws, 'std')
+    dataset_copy = NumAbs.abstract_numerical(dataset_copy, ['acc_phone_x'], ws, 'mean')
+    dataset_copy = NumAbs.abstract_numerical(dataset_copy, ['acc_phone_x'], ws, 'std')
 
-DataViz.plot_dataset(dataset_copy, ['acc_x', 'acc_x_temp_mean', 'acc_x_temp_std', 'label'], ['exact', 'like', 'like', 'like'], ['line', 'line', 'line', 'points'])
+DataViz.plot_dataset(dataset_copy, ['acc_phone_x', 'acc_phone_x_temp_mean', 'acc_phone_x_temp_std', 'label'], ['exact', 'like', 'like', 'like'], ['line', 'line', 'line', 'points'])
 
 ws = int(float(0.5*60000)/milliseconds_per_instance)
 selected_predictor_cols = [c for c in dataset.columns if not 'label' in c]
@@ -61,13 +61,13 @@ dataset = CatAbs.abstract_categorical(dataset, ['label'], ['like'], 0.03, int(fl
 FreqAbs = FourierTransformation()
 fs = float(1000)/milliseconds_per_instance
 
-periodic_predictor_cols = ['acc_x','acc_y','acc_z','ori_x','ori_y',
-                           'ori_z','mag_x','mag_y','mag_z']
+periodic_predictor_cols = ['acc_phone_x','acc_phone_y','acc_phone_z','gyr_phone_x','gyr_phone_y',
+                           'gyr_phone_z','mag_phone_x','mag_phone_y','mag_phone_z']
 data_table = FreqAbs.abstract_frequency(copy.deepcopy(dataset), ['acc_phone_x'], int(float(10000)/milliseconds_per_instance), fs)
 
 # Spectral analysis.
 
-DataViz.plot_dataset(data_table, ['acc_x_max_freq', 'acc_x_freq_weighted', 'acc_x_pse', 'label'], ['like', 'like', 'like', 'like'], ['line', 'line', 'line','points'])
+DataViz.plot_dataset(data_table, ['acc_phone_x_max_freq', 'acc_phone_x_freq_weighted', 'acc_phone_x_pse', 'label'], ['like', 'like', 'like', 'like'], ['line', 'line', 'line','points'])
 
 dataset = FreqAbs.abstract_frequency(dataset, periodic_predictor_cols, int(float(10000)/milliseconds_per_instance), fs)
 
@@ -81,4 +81,4 @@ dataset = dataset.iloc[::skip_points,:]
 
 dataset.to_csv(dataset_path + 'Ass3_chapter4_result.csv')
 
-DataViz.plot_dataset(dataset, ['acc_x', 'ori_x', 'mag_x', 'pca_1', 'label'], ['like', 'like', 'like', 'like', 'like'], ['line', 'line', 'line', 'line', 'points'])
+DataViz.plot_dataset(dataset, ['acc_phone_x', 'gyr_phone_x', 'mag_phone_x', 'pca_1', 'label'], ['like', 'like', 'like', 'like', 'like'], ['line', 'line', 'line', 'line', 'points'])
