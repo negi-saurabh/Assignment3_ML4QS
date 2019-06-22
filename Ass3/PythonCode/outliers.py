@@ -19,9 +19,9 @@ from matplotlib import pyplot
 DataViz = VisualizeDataset()
 
 # Read the result from the previous chapter, and make sture the index is of the type datetime.
-dataset_path = './Ass3inter_files/'
+dataset_path = '../Ass3_processed_outputfiles/'
 try:
-    dataset = pd.read_csv(dataset_path + 'Ass3_chapter2_result.csv', index_col=0)
+    dataset = pd.read_csv(dataset_path + 'initial_result.csv', index_col=0)
 except IOError as e:
     print('File not found, try to run previous crowdsignals scripts first!')
     raise e
@@ -54,18 +54,18 @@ milliseconds_per_instance = (dataset.index[1] - dataset.index[0]).microseconds/1
 # Step 1: Let us see whether we have some outliers we would prefer to remove.
 
 # Determine the columns we want to experiment on.
-outlier_columns = ['acc_x','acc_y','acc_z','ori_x','ori_y','ori_z','mag_x','mag_y','mag_z']
+outlier_columns = ['mag_phone_x','mag_phone_x','mag_phone_z']
 
 #for chauvenet
-pyplot.hist(dataset['acc_x'].dropna(), alpha=0.4, color='blue', label='acc_x' )
-pyplot.hist(dataset['acc_y'].dropna(), alpha=0.8, color='green', label='acc_y' )
-pyplot.hist(dataset['acc_z'].dropna(), alpha=0.7, color='blue', label='acc_z' )
-pyplot.hist(dataset['ori_x'].dropna(), alpha=0.6, color='blue', label='ori_x' )
-pyplot.hist(dataset['ori_y'].dropna(), alpha=0.3, color='blue', label='ori_y' )
-pyplot.hist(dataset['ori_z'].dropna(), alpha=0.4, color='blue', label='ori_z' )
-pyplot.hist(dataset['mag_x'].dropna(), alpha=0.9, color='blue', label='mag_x' )
-pyplot.hist(dataset['mag_y'].dropna(), alpha=0.9, color='blue', label='mag_y' )
-pyplot.hist(dataset['mag_z'].dropna(), alpha=0.9, color='blue', label='mag_z' )
+# pyplot.hist(dataset['acc_x'].dropna(), alpha=0.4, color='blue', label='acc_x' )
+# pyplot.hist(dataset['acc_y'].dropna(), alpha=0.8, color='green', label='acc_y' )
+# pyplot.hist(dataset['acc_z'].dropna(), alpha=0.7, color='blue', label='acc_z' )
+# pyplot.hist(dataset['ori_x'].dropna(), alpha=0.6, color='blue', label='ori_x' )
+# pyplot.hist(dataset['ori_y'].dropna(), alpha=0.3, color='blue', label='ori_y' )
+# pyplot.hist(dataset['ori_z'].dropna(), alpha=0.4, color='blue', label='ori_z' )
+pyplot.hist(dataset['mag_phone_x'].dropna(), alpha=0.9, color='blue', label='mag_x' )
+pyplot.hist(dataset['mag_phone_y'].dropna(), alpha=0.9, color='blue', label='mag_y' )
+pyplot.hist(dataset['mag_phone_z'].dropna(), alpha=0.9, color='blue', label='mag_z' )
 
 
 #for local outlier
