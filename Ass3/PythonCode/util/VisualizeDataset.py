@@ -72,7 +72,7 @@ class VisualizeDataset:
 
     def plot_dataset_boxplot(self, dataset, cols):
         ax = dataset[cols].plot.box()
-        ax.set_ylim(-30,30)
+        ax.set_ylim(-5,5)
         plot.show()
 
     # This function plots the real and imaginary amplitudes of the frequencies found in the Fourier transformation.
@@ -99,6 +99,8 @@ class VisualizeDataset:
         plot.ylabel('value')
         # Plot data points that are outliers in red, and non outliers in blue.
         xar.plot(data_table.index[data_table[outlier_col]], data_table[col][data_table[outlier_col]], 'r+')
+        print ("Number of the outliers:")
+        print len(data_table.index[data_table[outlier_col]])
         xar.plot(data_table.index[~data_table[outlier_col]], data_table[col][~data_table[outlier_col]], 'b+')
         plot.legend(['outlier ' + col, 'no outlier' + col], numpoints=1, fontsize='xx-small', loc='upper center',  ncol=2, fancybox=True, shadow=True)
         plot.hold(False)
