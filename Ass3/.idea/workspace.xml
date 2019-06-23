@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921da2a6-da60-4a70-a1f4-d373c0f35f31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ass3_interfiles/Ass3_chapter5_result.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter5/Clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter5/DistanceMetrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter7/Evaluation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter7/FeatureSelection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter7/LearningAlgorithms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter7/PrepareDatasetForLearning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter7/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter8/LearningAlgorithmsTemporal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter8/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter8/dynsys/Evaluator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter8/dynsys/Model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/Chapter8/dynsys/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/ass3_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/ass3_clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/ch4_visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/ch5_visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/ch6_visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/ch7_visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCode/ch8_visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonCode/perf_overview.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plots/Chapter4/myplot1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plots/Chapter4/myplot2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plots/Chapter4/myplot3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ass3_interfiles/Ass3_chapter5_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Ass3_interfiles/Ass3_chapter5_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCode/Chapter7/PrepareDatasetForLearning.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCode/Chapter7/PrepareDatasetForLearning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCode/ass3_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCode/ass3_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonCode/ass3_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonCode/ass3_clustering.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonCode/outliers_song.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+            <state relative-caret-position="129">
+              <caret line="56" column="55" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -48,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonCode/ass3_clustering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="311">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#505#555#0" expanded="true" />
               </folding>
@@ -57,11 +38,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonCode/Chapter7/PrepareDatasetForLearning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PythonCode/ass3_classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" />
+            <state relative-caret-position="138">
+              <caret line="74" column="120" selection-start-line="74" selection-start-column="120" selection-end-line="74" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -86,11 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonCode/ass3_ch4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#505#555#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -127,6 +114,7 @@
     <findStrings>
       <find>plot_dataset</find>
       <find>ori</find>
+      <find>repeats</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,6 +136,7 @@
         <option value="$PROJECT_DIR$/PythonCode/ass3_ch4.py" />
         <option value="$PROJECT_DIR$/PythonCode/ass3_clustering.py" />
         <option value="$PROJECT_DIR$/PythonCode/ass3_classification.py" />
+        <option value="$PROJECT_DIR$/PythonCode/Chapter7/PrepareDatasetForLearning.py" />
       </list>
     </option>
   </component>
@@ -159,10 +148,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-62" />
-    <option name="y" value="86" />
-    <option name="width" value="1574" />
-    <option name="height" value="772" />
+    <option name="x" value="596" />
+    <option name="y" value="495" />
+    <option name="width" value="1381" />
+    <option name="height" value="683" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,6 +176,12 @@
               <item name="Ass3" type="462c0819:PsiDirectoryNode" />
               <item name="PythonCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Ass3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ass3" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter7" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,7 +191,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PythonCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Plots/Chapt7" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -353,16 +348,15 @@
       <workItem from="1561062212681" duration="321000" />
       <workItem from="1561062594156" duration="1909000" />
       <workItem from="1561195587788" duration="29065000" />
-      <workItem from="1561253670835" duration="1474000" />
+      <workItem from="1561253670835" duration="16019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51415000" />
+    <option name="totallyTimeSpent" value="65960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1824" height="888" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16366704" />
@@ -384,7 +378,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.2767154" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.42069742" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,10 +418,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ass3$ass3_ch4.coverage" NAME="ass3_ch4 Coverage Results" MODIFIED="1561238410097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$dataconvert_new.coverage" NAME="dataconvert_new Coverage Results" MODIFIED="1561035754076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
-    <SUITE FILE_PATH="coverage/Ass3$ass3_classification.coverage" NAME="ass3_classification Coverage Results" MODIFIED="1561257292543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
+    <SUITE FILE_PATH="coverage/Ass3$ass3_classification.coverage" NAME="ass3_classification Coverage Results" MODIFIED="1561275832845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$ass3_1.coverage" NAME="ass3_1 Coverage Results" MODIFIED="1561214455592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$missingValueImputation.coverage" NAME="missingValueImputation Coverage Results" MODIFIED="1561234441574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
-    <SUITE FILE_PATH="coverage/Ass3$ass3_clustering.coverage" NAME="ass3_clustering Coverage Results" MODIFIED="1561240580836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
+    <SUITE FILE_PATH="coverage/Ass3$ass3_clustering.coverage" NAME="ass3_clustering Coverage Results" MODIFIED="1561273238169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$dataconvert.coverage" NAME="dataconvert Coverage Results" MODIFIED="1561214475151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$initial_plots.coverage" NAME="initial_plots Coverage Results" MODIFIED="1561221305028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
     <SUITE FILE_PATH="coverage/Ass3$outliers_song.coverage" NAME="outliers_song Coverage Results" MODIFIED="1561230174511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonCode" />
@@ -631,23 +625,6 @@
     <entry file="file://$PROJECT_DIR$/PythonCode/Chapter5/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCode/outliers_song.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCode/ass3_clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="e#505#555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonCode/missingValueImputation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -660,16 +637,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonCode/ass3_ch4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#505#555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonCode/ch4_visualization.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,10 +651,44 @@
     <entry file="file://$PROJECT_DIR$/PythonCode/outliers.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/outliers_song.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/ass3_ch4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/perf_overview.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/ass3_clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#505#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonCode/Chapter7/PrepareDatasetForLearning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PythonCode/ass3_classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" />
+        <state relative-caret-position="138">
+          <caret line="74" column="120" selection-start-line="74" selection-start-column="120" selection-end-line="74" selection-end-column="120" />
         </state>
       </provider>
     </entry>

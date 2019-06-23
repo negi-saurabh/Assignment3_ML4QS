@@ -163,7 +163,7 @@ plot.show()
 
 possible_feature_sets = [basic_features, features_after_chapter_3, features_after_chapter_4, features_after_chapter_5, selected_features]
 feature_names = ['initial set', 'Chapter 3', 'Chapter 4', 'Chapter 5', 'Selected features']
-repeats = 1
+repeats = 5
 
 scores_over_all_algs = []
 
