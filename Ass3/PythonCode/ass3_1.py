@@ -1,8 +1,8 @@
 ###############################################################
+#  Song Yang                                                  #
+#  Chapter 2 coding                                           #
+#  Largely adapted from Mark Hoogendoorn's                    #
 #                                                             #
-#  Chapter 2 coding exercise.                                 #
-#  Sdapted from Mark Hoogendoorn's                            #
-#  crowdsignals_ch2.py                                        #
 #                                                             #
 ###############################################################
 

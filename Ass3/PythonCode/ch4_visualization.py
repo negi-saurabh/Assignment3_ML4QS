@@ -1,9 +1,8 @@
 ##############################################################
 #                                                            #
-#    Mark Hoogendoorn and Burkhardt Funk (2017)              #
-#    Machine Learning for the Quantified Self                #
-#    Springer                                                #
-#    Chapter 4 - Exemplary graphs                            #
+#  Song Yang                                                 #
+#  Chapter 4 Exemplary graphs                                #
+#  Largely adapted from Mark Hoogendoorn's                   #
 #                                                            #
 ##############################################################
 

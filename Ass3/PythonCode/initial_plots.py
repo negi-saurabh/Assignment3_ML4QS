@@ -1,9 +1,8 @@
 ##############################################################
 #                                                            #
-#    Mark Hoogendoorn and Burkhardt Funk (2017)              #
-#    Machine Learning for the Quantified Self                #
-#    Springer                                                #
-#    Chapter 2                                               #
+#  Song Yang                                                 #
+#  Chapter 2                                                 #
+#  Largely adapted from Mark Hoogendoorn's                   #
 #                                                            #
 ##############################################################
 
